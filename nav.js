@@ -2,6 +2,8 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,Button} from 'react-native';
 import { createStackNavigator, createAppContainer } from "react-navigation";
+import Homescreen from './Page/HomePage';
+import Secondscreen from './Page/SecondPage';
 
 
 const AppNavigator = createStackNavigator({
