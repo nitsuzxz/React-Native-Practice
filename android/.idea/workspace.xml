@@ -6,7 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe1e540b-2903-48af-8e36-b64dc12c1b8d" name="Default" comment="" />
+    <list default="true" id="0b0bbc78-9c75-4a0a-b62a-376d19b43619" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -3362,7 +3362,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -3373,10 +3373,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3418,7 +3418,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -3502,46 +3502,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fe1e540b-2903-48af-8e36-b64dc12c1b8d" name="Default" comment="" />
-      <created>1544423937383</created>
+      <changelist id="0b0bbc78-9c75-4a0a-b62a-376d19b43619" name="Default" comment="" />
+      <created>1544599400055</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544423937383</updated>
+      <updated>1544599400055</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Build Variants" order="2" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45941558" />
-      <window_info anchor="bottom" id="Logcat" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" weight="0.6866883" />
+      <window_info anchor="bottom" id="Logcat" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.7077922" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.7694805" />
+      <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

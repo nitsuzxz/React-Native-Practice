@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "96625729054",
+    "firebase_url": "https://byexpo-504b2.firebaseio.com",
+    "project_id": "byexpo-504b2",
+    "storage_bucket": "byexpo-504b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96625729054:android:645513aecbf91738",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96625729054-btdqliinojttl83dk0c77jrk137mm7dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvWCaCceuysy0lH23lN9N_lIZOQGAnDEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

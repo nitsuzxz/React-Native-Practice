@@ -4,15 +4,6 @@ import * as firebase from 'firebase';
 import {Container, Content, Header, Form, Input , Item, Button, Label} from 'native-base';
 
 
-const firebaseConfig = {
-    apiKey: "AIzaSyCs5YP_6G16cvHGHiu5j-gUxs4gNnoLfS8",
-    authDomain: "byexpo-504b2.firebaseapp.com",
-    databaseURL: "https://byexpo-504b2.firebaseio.com",
-    storageBucket: "",
-};
-
-firebase.initializeApp(firebaseConfig);
-
 export default class App extends React.Component {
 
 constructor(props){
@@ -49,6 +40,14 @@ loginUser=(email,password) =>{
 
         if(this.state.password.length<6){
             alert('Password is incorrect')
+            return;
+        }
+        if(this.state.email== ''){
+            alert('Email cannot empty')
+            return;
+        }
+        if(this.state.password== ''){
+            alert('email cannot empty')
             return;
         }
         firebase.auth().signInWithEmailAndPassword(email,password).then(function (user){

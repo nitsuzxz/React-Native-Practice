@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\rnative\\create\\ikhmal\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "C:\\rnative\\create\\react-native-practice\\React-Native-Practice\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\nitsu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c7ace3e2b493a311a617805699fe03f5\\res\\values-en-rIN\\values-en-rIN.xml",
