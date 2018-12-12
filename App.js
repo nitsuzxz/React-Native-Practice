@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View , Image} from 'react-native';
 import * as firebase from 'firebase';
 import Navigation from './nav';
+import {Provider} from 'mobx-react';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCs5YP_6G16cvHGHiu5j-gUxs4gNnoLfS8",
@@ -15,7 +16,9 @@ firebase.initializeApp(firebaseConfig);
 export default class App extends React.Component{
     render() {
       return (
-          <Navigation/>
+          <Provider>
+             <Navigation/>
+          </Provider>
       );
     }
   }
