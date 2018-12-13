@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View , Image} from 'react-native';
-import * as firebase from 'firebase';
 import {Container, Content, Header, Form, Input , Item, Button, Label} from 'native-base';
 
 
@@ -94,10 +93,11 @@ loginUser=(email,password) =>{
                     <Text style={{color: 'white',}}>Login</Text>
                 </Button>
 
-                <Button   title='Register Now'
-                        onPress={() => this.props.navigation.navigate('Register')} 
-                          style={{marginTop:20}} regular primary full>
-                </Button>
+                <Button regular  full
+          onPress={() => this.props.navigation.navigate('Register')}
+          >
+            <Text style={{color: 'white',}}>Register</Text>
+          </Button>
                          
                 
             </Form> 

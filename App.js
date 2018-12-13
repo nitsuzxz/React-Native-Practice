@@ -9,8 +9,8 @@ import * as firebase from 'firebase';
     authDomain: "fir-e81ee.firebaseapp.com",
     databaseURL: "https://fir-e81ee.firebaseio.com",
     projectId: "fir-e81ee",
-    storageBucket: "fir-e81ee.appspot.com",
-    messagingSenderId: "724659080856"
+    storageBucket: "",
+
   };
   firebase.initializeApp(config);
 
@@ -23,3 +23,5 @@ export default class App extends React.Component{
       );
     }
   }
+
+  
