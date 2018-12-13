@@ -4,16 +4,16 @@ import {Platform, StyleSheet, Text, View,Button} from 'react-native';
 import { createStackNavigator, createAppContainer } from "react-navigation";
 
 
-export default class Homescreen extends React.Component{
+export default class Register extends React.Component{
 
     static navigationOption={
-      title: 'Home'
+      title: 'Register'
     }
   
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to Homescreen!</Text>
+        <Text style={styles.welcome}>Welcome to Register!</Text>
         <Button
           title='go to secondscreen'
           onPress={() => this.props.navigation.navigate('Second')}/>

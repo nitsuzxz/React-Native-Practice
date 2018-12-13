@@ -6,6 +6,10 @@ import {Container, Content, Header, Form, Input , Item, Button, Label} from 'nat
 
 export default class App extends React.Component {
 
+    static navigationOption={
+        title: 'Login'
+      }
+
 constructor(props){
     super(props)
 
@@ -90,10 +94,12 @@ loginUser=(email,password) =>{
                     <Text style={{color: 'white',}}>Login</Text>
                 </Button>
 
-                <Button onPress={()=>this.signupUser(this.state.email, this.state.password)} style={{marginTop:20}} regular primary full>
+                <Button  onPress={() => this.props.navigation.navigate('Second')} style={{marginTop:20}} regular primary full>
                     <Text style={{color: 'white'}} >Sign In</Text>
                 </Button>
-
+                <Button
+          title='go to secondscreen'
+         />
                          
                 
             </Form> 

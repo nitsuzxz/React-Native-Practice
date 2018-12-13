@@ -4,7 +4,15 @@ import {Platform, StyleSheet, Text, View,Button} from 'react-native';
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import Homescreen from './Page/HomePage';
 import Secondscreen from './Page/SecondPage';
+import LoginScreen from './Page/LoginPage';
+import RegisterScreen from './Page/RegisterPage';
 
+
+
+const LogReg = createStackNavigator({
+  Login: LoginScreen,
+  Register: RegisterScreen
+})
 
 const AppNavigator = createStackNavigator({
   
@@ -14,7 +22,7 @@ const AppNavigator = createStackNavigator({
 });
 
 
-export default createAppContainer(AppNavigator);
+export default createAppContainer(LogReg);
 
 const styles = StyleSheet.create({
   container: {

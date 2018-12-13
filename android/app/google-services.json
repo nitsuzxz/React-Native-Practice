@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "96625729054",
-    "firebase_url": "https://byexpo-504b2.firebaseio.com",
-    "project_id": "byexpo-504b2",
-    "storage_bucket": "byexpo-504b2.appspot.com"
+    "project_number": "724659080856",
+    "firebase_url": "https://fir-e81ee.firebaseio.com",
+    "project_id": "fir-e81ee",
+    "storage_bucket": "fir-e81ee.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:96625729054:android:645513aecbf91738",
+        "mobilesdk_app_id": "1:724659080856:android:86286efde6634554",
         "android_client_info": {
-          "package_name": "com.test"
+          "package_name": "com.reactpractice"
         }
       },
       "oauth_client": [
         {
-          "client_id": "96625729054-btdqliinojttl83dk0c77jrk137mm7dv.apps.googleusercontent.com",
+          "client_id": "724659080856-1a2fvogpa7hot7c1s4bclsvlbudc920f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCvWCaCceuysy0lH23lN9N_lIZOQGAnDEM"
+          "current_key": "AIzaSyAqu7Z2bcco6zZTii5rj6mL-bpJ00AyHOM"
         }
       ],
       "services": {
