@@ -94,12 +94,10 @@ loginUser=(email,password) =>{
                     <Text style={{color: 'white',}}>Login</Text>
                 </Button>
 
-                <Button  onPress={() => this.props.navigation.navigate('Second')} style={{marginTop:20}} regular primary full>
-                    <Text style={{color: 'white'}} >Sign In</Text>
+                <Button   title='Register Now'
+                        onPress={() => this.props.navigation.navigate('Register')} 
+                          style={{marginTop:20}} regular primary full>
                 </Button>
-                <Button
-          title='go to secondscreen'
-         />
                          
                 
             </Form> 

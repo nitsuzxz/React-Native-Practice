@@ -14,10 +14,6 @@ export default class Register extends React.Component{
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to Register!</Text>
-        <Button
-          title='go to secondscreen'
-          onPress={() => this.props.navigation.navigate('Second')}/>
-  
       </View>
     );
   }

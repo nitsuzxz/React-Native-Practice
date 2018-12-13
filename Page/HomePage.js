@@ -16,8 +16,8 @@ export default class Homescreen extends React.Component{
         <Text style={styles.welcome}>Welcome to Homescreen!</Text>
         <Button
           title='go to secondscreen'
-          onPress={() => this.props.navigation.navigate('Second')}/>
-  
+          onPress={() => this.props.navigation.navigate('Second')}
+          />
       </View>
     );
   }
@@ -34,10 +34,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  }
 });
