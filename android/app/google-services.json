@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:724659080856:android:86286efde6634554",
+        "mobilesdk_app_id": "1:724659080856:android:a06e0e83dd2fd63a",
         "android_client_info": {
-          "package_name": "com.reactpractice"
+          "package_name": "com.ikhmal"
         }
       },
       "oauth_client": [

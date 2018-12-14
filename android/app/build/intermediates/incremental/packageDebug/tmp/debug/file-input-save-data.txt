@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Dec 12 15:41:39 SGT 2018
+#Fri Dec 14 10:59:31 SGT 2018
 17.baseType=DIRECTORY
 4.path=lib/x86/libjsc.so
 25.base=C\:\\rnative\\create\\react-native-practice\\React-Native-Practice\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
